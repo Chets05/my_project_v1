@@ -1,1 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "my_project_v1"
+version = "0.2.0"
+description = "AI-powered CLI assistant using Gemini API"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ruchira"}]
+
+dependencies = [
+    "requests",
+    "PyMuPDF",
+    "python-docx",
+    "openpyxl",
+    "python-pptx",
+    "Pillow"
+]
+
+[project.scripts]
+ai-assistant = "ai_assistant.cli:main"
