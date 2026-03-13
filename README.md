@@ -1,4 +1,4 @@
-#AI Assistant & Command Generator
+##AI Assistant & Command Generator
 
 A smart command-line tool that brings the power of AI (Gemini) directly into your terminal. It helps you generate code, explain files, and save your favorite terminal commands in a "Recipe Vault."
 
